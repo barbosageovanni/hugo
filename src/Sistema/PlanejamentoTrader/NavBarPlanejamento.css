@@ -1,0 +1,50 @@
+/* Navbar.css */
+.navbar {
+  background-color: #05322B; /* Cor de fundo da Navbar */
+  color: #FFF; /* Cor do texto */
+  padding: 10px 20px; /* Padding para dar espaço interno */
+}
+
+.navbar a {
+  color: #FFF; /* Cor do texto dos links */
+  text-decoration: none; /* Remove o sublinhado dos links */
+  padding: 0 15px; /* Espaçamento entre os links */
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse ou focar */
+  color: #FAFAFA; /* Altera a cor do texto para um branco mais claro */
+}
+
+.navbar-brand {
+  font-weight: bold; /* Deixa o texto da marca mais em negrito */
+  font-size: 1.5em; /* Aumenta o tamanho do texto da marca */
+}
+
+.navbar-nav {
+  display: flex; /* Usa flexbox para alinhar os itens da nav */
+  align-items: center; /* Centraliza os itens verticalmente */
+  list-style: none; /* Remove a estilização padrão de lista */
+  padding: 0; /* Remove o padding padrão */
+}
+
+.nav-item {
+  margin: 0 10px; /* Adiciona margem horizontal entre os itens */
+}
+
+.nav-link {
+  display: block; /* Faz com que os links ocupem todo o espaço disponível */
+  padding: 5px 0; /* Adiciona padding vertical */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column; /* Os itens da nav são dispostos em coluna */
+  }
+  
+  .nav-item {
+    margin: 5px 0; /* Ajusta a margem para espaçamento vertical */
+  }
+}

@@ -1,0 +1,29 @@
+
+[
+    {
+      "id": "1",
+      "trade": "Trade 1",
+      "diaDoMes": "01/01/2021",
+      "horaOperacao": "10:00",
+      "tradeDoDia": "XYZ",
+      "ativoOperado": "Ação XYZ",
+      "tipoOperacao": "Compra",
+      "setup": "Setup 1",
+      "trigger": "Trigger 1",
+      "mma9": "Valor",
+      "mma20": "Valor",
+      "mma200": "Valor",
+      "tipoEntrada": "Tipo 1",
+      "tradeRealizado": "Sim",
+      "setupStop": "Setup Stop 1",
+      "posicaoStop": "Posição 1",
+      "gestaoStop": "Gestão 1",
+      "maiorErro": "Erro 1",
+      "resultado": "Resultado 1",
+      "resultadoMonetario": "100",
+      "resultadoEmPontos": "10",
+      "comentarios": "Comentário 1"
+    }
+ 
+  ]
+  

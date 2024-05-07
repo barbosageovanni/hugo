@@ -1,0 +1,57 @@
+footer{
+ 
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content:right;
+    align-items: right;
+    flex-direction: column;
+    font-family:sans-serif;
+    font-size: 8px;
+    margin-right: 90px;
+    font-family: sans-serif;
+    font-style: initial;
+    font-size: larger;
+    font: 1rem;
+
+    background-color: #fff; /* Cor de fundo da Navbar */
+    color: white;
+    text-align: right;
+    padding: 10px 0;
+    margin-left: 0px;
+
+}
+
+/*estilo para linha horizontal*/
+
+hr{
+    width: 90%;
+    display: block;
+    margin-top: 0.1em;
+    border-bottom: none;
+}
+
+
+/*estilo para seção social*/
+
+.social_section_footer{
+    display: flex;
+    width: 90%;
+    gap: 5%;
+    margin: 2rem 0;
+}
+
+
+
+/* estilo para copyright_section_footer*/
+
+.copyright_section_footer {
+    margin: 2rem 0;
+}
+
+/*Estilo para todo o texto dentro da seção COPYRYGHT e os paragrafos do artigo TITLE */
+.copyright_section_footer P,
+.title_article_footer p,
+.copyright_link_footer {
+    color: var(--letters-color);
+}

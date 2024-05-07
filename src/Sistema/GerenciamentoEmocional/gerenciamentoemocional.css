@@ -1,0 +1,35 @@
+
+/* Adicionando estilos para a navbar e header */
+.navbar, .header {
+    background-color: #05322B; /* Mudando a cor de fundo */
+  }
+  
+  /* Estilização adicional para alinhar com o modelo DiarioTrader.css */
+  .containerWindowDark, .containerWindow, .expandableAreaContainer {
+    background-color: #EEE; /* Fundo claro para containers */
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    margin-top: 30px;
+
+  }
+  
+  /* Ajustes para elementos dentro dos containers */
+  .containerHeader, .containerHeaderLeft {
+    background-color: #05322B; /* Fundo escuro */
+    color: #FFF; /* Texto branco */
+  }
+  
+  /* Cores baseadas na imagem */
+:root {
+  --primary-color: #052C2E; /* Cor escura da barra de navegação */
+  --secondary-color: #FFFFFF; /* Cor de texto usada */
+  --background-color: #E5E5E5; /* Cor de fundo da página */
+  --form-background-color: #F7F7F7; /* Cor de fundo do formulário */
+}
+
+
+body {
+  background-color: #FFF;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
